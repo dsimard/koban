@@ -1,0 +1,24 @@
+{ 
+  "name" : "koban",
+  "version" : "0.0.1",
+  "description" : "",
+  "keywords" : ["kobo", "annotation"],
+  "author" : "dsimard <dsimard@azanka.ca> (http://github.com/dsimard)",
+  "main": "./bakerhelper.js",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://dsimard@github.com/dsimard/koban.git"
+  },
+  "licenses": "MIT",
+  "dependencies" : {
+    "coffee-script" : "~1.4.0",
+    "underscore" : "~1.4.3",
+    "optimist" : "~0.3.5",
+    "sqlite3" : "~2.1.5"
+  },
+  "devDependencies" : {
+    "mocha" : "latest",
+    "should" : "latest"
+  },
+  "engines" : {"node" : ">=0.4.0"}
+}
